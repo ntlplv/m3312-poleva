@@ -46,7 +46,12 @@ body {
 
   nav a.active {
     font-weight: bold; 
-    color: #a68580; 
+    color: #ece6e5; 
+    text-decoration: underline; 
+  }
+  
+  nav a:hover {
+    color: #ff6347;
     text-decoration: underline; 
   }
   
