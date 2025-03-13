@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="рецепты, кулинария, ингредиенты, списки покупок, готовка">
+    <meta name="description" content="Кулинарный мастер - Подберите рецепты по ингредиентам и создайте собственные кулинарные шедевры.">
+
+    <link rel="stylesheet" href="../outline_v2.css">
+    <script src="../some_script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/topbar@0.1.0/topbar.min.js"></script>
+
+    <script src="../fetch_recipes.js" defer></script>
+    <title> {{ title }} </title>
+</head>
+<body>
+
+{{> header}}
+
+<main>
+    <section class="slogan">
+        <h2>Создавайте вкусные блюда из того, что есть</h2>
+    </section>
+
+    {{>Culinary_master_content}}
+
+
+</main>
+
+{{>footer}}
+</body>
+</html>
